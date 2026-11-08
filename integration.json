@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "1ac8773381be3cd349c83be561953e786b8f8fd87bd373b9da4f2f3f2e82c0da",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://activitysmith.com/openapi.json"
+  ],
+  "id": "activitysmith-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "ActivitySmith MCP setup and connection checker",
+  "description": "Generate ActivitySmith MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "activitysmith",
+  "appName": "ActivitySmith",
+  "providerDocs": "https://activitysmith.com/openapi.json",
+  "providerWebsite": "https://activitysmith.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://activitysmith.com/docs/api-keys",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-activitysmith-mcp"
+}
