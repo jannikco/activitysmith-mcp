@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-activitysmith",
+      "description": "Connect AI agents to ActivitySmith using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-activitysmith/SKILL.md": "cf7880f3bc4d9b7f9a503de35d99aea0b1067c1c339c6b9767fb40dfffcb4e63"
+  }
+}
